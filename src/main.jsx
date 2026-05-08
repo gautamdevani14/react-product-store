@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 createRoot(document.getElementById("root")).render(
     <Context>
-      <BrowserRouter basename="/react-product-store">
+      <BrowserRouter>
         <App />
         <ToastContainer />
       </BrowserRouter>
